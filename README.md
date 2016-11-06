@@ -1,2 +1,1 @@
-# work_timer
-Create simple log of your work time
+This aplication is inteded to log your work time with simple overtime calculator.
