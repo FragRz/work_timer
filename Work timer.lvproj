@@ -26,13 +26,19 @@
 		<Item Name="DatabaseManager" Type="Folder">
 			<Item Name="DBManager.lvclass" Type="LVClass" URL="../DatabaseManager/DBManager.lvclass"/>
 		</Item>
-		<Item Name="Support VIs" Type="Folder">
+		<Item Name="Dialog" Type="Folder">
+			<Item Name="OffsetDialog.vi" Type="VI" URL="../Dialog/OffsetDialog.vi"/>
+		</Item>
+		<Item Name="QMH Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
 			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
+		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="TimerCalc state.vi" Type="VI" URL="../TimerCalc state.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="DatabseTest.vi" Type="VI" URL="../Tests/DatabseTest.vi"/>
@@ -43,7 +49,6 @@
 		<Item Name="Date And Time.ico" Type="Document" URL="../../../PRZYDATNE/ikonki/Date And Time.ico"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="MainRTM.rtm" Type="Document" URL="../MainRTM.rtm"/>
-		<Item Name="TimerCalc state.vi" Type="VI" URL="../TimerCalc state.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
@@ -119,7 +124,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Date And Time.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C83A3444-BF2F-4A30-BFDF-43A862CA4E79}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{ED44D404-0F00-4E94-9E2F-953216113721}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
