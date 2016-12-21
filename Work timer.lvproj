@@ -28,6 +28,7 @@
 		</Item>
 		<Item Name="Dialog" Type="Folder">
 			<Item Name="OffsetDialog.vi" Type="VI" URL="../Dialog/OffsetDialog.vi"/>
+			<Item Name="ReportDialog.vi" Type="VI" URL="../Dialog/ReportDialog.vi"/>
 		</Item>
 		<Item Name="QMH Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -42,13 +43,19 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="DatabseTest.vi" Type="VI" URL="../Tests/DatabseTest.vi"/>
+			<Item Name="DatabseTest_GetRange.vi" Type="VI" URL="../Tests/DatabseTest_GetRange.vi"/>
+		</Item>
+		<Item Name="Timer support" Type="Folder">
+			<Item Name="Build report string.vi" Type="VI" URL="../Build report string.vi"/>
+			<Item Name="Date And Time.ico" Type="Document" URL="../../../PRZYDATNE/ikonki/Date And Time.ico"/>
+			<Item Name="MainRTM.rtm" Type="Document" URL="../MainRTM.rtm"/>
+			<Item Name="NegativeTimeString.vi" Type="VI" URL="../NegativeTimeString.vi"/>
+			<Item Name="WorkDay.ctl" Type="VI" URL="../DatabaseManager/WorkDay.ctl"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
-		<Item Name="Date And Time.ico" Type="Document" URL="../../../PRZYDATNE/ikonki/Date And Time.ico"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="MainRTM.rtm" Type="Document" URL="../MainRTM.rtm"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
@@ -123,8 +130,8 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Date And Time.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ED44D404-0F00-4E94-9E2F-953216113721}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Timer support/Date And Time.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4A49F8B8-1027-4434-9CB1-EAA7C7DD5453}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
